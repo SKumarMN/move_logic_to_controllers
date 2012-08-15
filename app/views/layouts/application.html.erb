@@ -7,7 +7,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= params.inspect %>
+<br/>
 <%= link_to "a list of users", users_path %>  |  
 <%= link_to "a list of products", products_path %>
 
